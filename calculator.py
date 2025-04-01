@@ -31,3 +31,7 @@ else:
 print(f"my name is {name},my salary is {salary},tax {tax},net_income {net_income}")
 print(f"happy coding with juuma😃✨")
 
+
+
+
+
