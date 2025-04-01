@@ -21,9 +21,13 @@ net_income=salary-tax
 if children>3:
     net_income=net_income-1000*children
 else:
-    net_income=net_income    
+    net_income=net_income 
+if net_income<0:
+    print("invalid income")
+else:
+    net_income=net_income 
+    print("my net_income is {net_income}")  
 
-print("net_income is  :",net_income)
 print(f"my name is {name},my salary is {salary},tax {tax},net_income {net_income}")
 print(f"happy coding with juuma😃✨")
 
